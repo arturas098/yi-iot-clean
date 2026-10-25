@@ -1,0 +1,29 @@
+name: Build standalone APK release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "payload/**"
+      - ".github/workflows/assemble-release.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble and validate APK
+        run: |
+          set -euo pipefail
+          test -e payload/part-0000
+          cat $(find payload -type f -name 'part-*' | LC_ALL=C sort) > YI_IoT_Clean_5.1.8_ALIGNED_FIX.apk
+          printf "%s  %s\n" "09e8ee8d699a6e4ce1fdb92c1eecb3d9bec2e8150783ccef83d797e963855847" "YI_IoT_Clean_5.1.8_ALIGNED_FIX.apk" | sha256sum --check
+      - name: Publish APK
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "yi-iot-clean-5.1.8" YI_IoT_Clean_5.1.8_ALIGNED_FIX.apk --title "YI IoT Clean 5.1.8 (ARM64)" --notes "Unsigned by original vendor; experimental modified app. Install at your own risk." --latest || gh release upload "yi-iot-clean-5.1.8" YI_IoT_Clean_5.1.8_ALIGNED_FIX.apk --clobber
