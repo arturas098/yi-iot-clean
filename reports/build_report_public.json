@@ -1,0 +1,214 @@
+{
+  "original": "com.yunyi.smartcamera_5.1.8_20261021-3800_2arch_7dpi_24lang_fb525eda262977216ec54d404aa4b850_apkmirror.com.apkm",
+  "output": "YI_IoT_5.1.8_clean_arm64.apks",
+  "splits": [
+    "base.apk",
+    "split_config.arm64_v8a.apk",
+    "split_config.xxhdpi.apk",
+    "split_config.en.apk"
+  ],
+  "patched_methods": [
+    {
+      "class": "com.xiaoyi.cloud.newCloud.activity.ChinaPurchaseActivity",
+      "method": "showAdVideo",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.xiaoyi.cloud.newCloud.activity.TaskActivity",
+      "method": "loadAD",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.xiaoyi.cloud.newCloud.activity.TaskActivity",
+      "method": "loadKs",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.xiaoyi.cloud.newCloud.activity.TaskActivity",
+      "method": "loadLr",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.xiaoyi.cloud.newCloud.activity.TaskActivity",
+      "method": "loadWhRewardVideo",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.xiaoyi.cloud.newCloud.activity.TaskActivity",
+      "method": "showKs",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.xiaoyi.cloud.newCloud.activity.TaskActivity",
+      "method": "showLr",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.xiaoyi.cloud.newCloud.activity.TaskActivity",
+      "method": "showAdVideo",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.xiaoyi.yiplayer.ui.BallCameraPlayerFragment",
+      "method": "showVideoAdFrament",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.xiaoyi.yiplayer.ui.BallPlaybackFragment",
+      "method": "showVideoAdFrament",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.xiaoyi.yiplayer.ui.MultiCameraPlayerFragment",
+      "method": "showVideoAdFrament",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.xiaoyi.yiplayer.ui.PlaybackChinaFragment",
+      "method": "showVideoAdFrament",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.xiaoyi.yiplayer.ui.PlayerFragment",
+      "method": "showVideoAdFrament",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.yd.saas.ydsdk.YdBanner",
+      "method": "requestBanner",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.yd.saas.ydsdk.YdDrawVideo",
+      "method": "requestDrawVideo",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.yd.saas.ydsdk.YdFullVideo",
+      "method": "requestFullVideo",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.yd.saas.ydsdk.YdFullVideo",
+      "method": "show",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.yd.saas.ydsdk.YdInterstitial",
+      "method": "requestInterstitial",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.yd.saas.ydsdk.YdInterstitial",
+      "method": "show",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.yd.saas.ydsdk.YdInterstitial",
+      "method": "show",
+      "parameter_count": 1
+    },
+    {
+      "class": "com.yd.saas.ydsdk.YdNative",
+      "method": "requestNative",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.yd.saas.ydsdk.YdSpread",
+      "method": "requestSpread",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.yd.saas.ydsdk.YdTemplate",
+      "method": "requestAD",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.yd.saas.ydsdk.YdVideo",
+      "method": "requestRewardVideo",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.yd.saas.ydsdk.YdVideo",
+      "method": "show",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.yd.saas.ydsdk.YdVideo",
+      "method": "show",
+      "parameter_count": 1
+    },
+    {
+      "class": "com.yd.saas.ydsdk.api.YdSDK",
+      "method": "loadMixNative",
+      "parameter_count": 3
+    },
+    {
+      "class": "com.google.android.gms.ads.AdLoader",
+      "method": "loadAd",
+      "parameter_count": 1
+    },
+    {
+      "class": "com.google.android.gms.ads.AdLoader",
+      "method": "loadAd",
+      "parameter_count": 1
+    },
+    {
+      "class": "com.google.android.gms.ads.AdLoader",
+      "method": "loadAds",
+      "parameter_count": 2
+    },
+    {
+      "class": "com.google.android.gms.ads.interstitial.InterstitialAd",
+      "method": "load",
+      "parameter_count": 4
+    },
+    {
+      "class": "com.google.android.gms.ads.admanager.AdManagerInterstitialAd",
+      "method": "load",
+      "parameter_count": 4
+    },
+    {
+      "class": "com.google.android.gms.ads.rewarded.RewardedAd",
+      "method": "load",
+      "parameter_count": 4
+    },
+    {
+      "class": "com.google.android.gms.ads.rewarded.RewardedAd",
+      "method": "load",
+      "parameter_count": 4
+    },
+    {
+      "class": "com.google.android.gms.ads.rewardedinterstitial.RewardedInterstitialAd",
+      "method": "load",
+      "parameter_count": 4
+    },
+    {
+      "class": "com.google.android.gms.ads.rewardedinterstitial.RewardedInterstitialAd",
+      "method": "load",
+      "parameter_count": 4
+    },
+    {
+      "class": "com.mbridge.msdk.out.MBBannerView",
+      "method": "load",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.mbridge.msdk.out.MBBannerView",
+      "method": "loadFromBid",
+      "parameter_count": 1
+    },
+    {
+      "class": "com.mbridge.msdk.out.MBNativeAdvancedHandler",
+      "method": "load",
+      "parameter_count": 0
+    },
+    {
+      "class": "com.mbridge.msdk.out.MBNativeAdvancedHandler",
+      "method": "loadByToken",
+      "parameter_count": 1
+    }
+  ],
+  "cert_sha256": "602b040e9485615f95bfbff9c0373e75f844c930cbf6569d7f295a9ca25151f6",
+  "validation": "not runtime-tested"
+}
